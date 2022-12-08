@@ -1,0 +1,8 @@
+nome = input('digite seu nome: ')
+nome_maiusculo = nome.upper()
+nome_minisculo = nome.lower()
+nome_contagem = nome.replace(' ', '')
+nome_contagem1 = len(nome_contagem)
+nome_1 = nome.split()
+nome_2 = len(nome_1[0])
+print(f'o seu nome é {nome}\no nome maisculo é {nome_maiusculo}\nnome minisculo é {nome_minisculo}\ntanto de letra no nome é {nome_contagem1}\ne o tanto de letras do primeiro nome é de {nome_2}\n')
